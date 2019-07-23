@@ -44,17 +44,20 @@ You could start MySql locally with whatever installer works for your OS, or with
 docker run -e MYSQL_ROOT_PASSWORD=petclinic -e MYSQL_DATABASE=petclinic -p 3306:3306 mysql:5.7.8
 ```
 
+Further documentation is provided [here](https://github.com/spring-projects/spring-petclinic/blob/master/src/main/resources/db/mysql/petclinic_db_setup_mysql.txt).
+
 ## Working with Petclinic in your IDE
 
 ### Prerequisites
 The following items should be installed in your system:
 * Java 8 or newer.
 * git command line tool (https://help.github.com/articles/set-up-git)
-* Your prefered IDE 
+* Your preferred IDE 
   * Eclipse with the m2e plugin. Note: when m2e is available, there is an m2 icon in `Help -> About` dialog. If m2e is
   not there, just follow the install process here: https://www.eclipse.org/m2e/
   * [Spring Tools Suite](https://spring.io/tools) (STS)
   * IntelliJ IDEA
+  * [VS Code](https://code.visualstudio.com)
 
 ### Steps:
 
